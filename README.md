@@ -3,9 +3,9 @@
 Group Name: __Group1__. 
 
 Team Mates:
-1.Wan Aiman bin Wan Ibrahim 2113615
-2.Ahmad Nazrin Izwan bin Ahmad Khalil 2112343
-3.Nurizuan Nazrin bin Komori 2113021
+1. Wan Aiman bin Wan Ibrahim 2113615
+2. Ahmad Nazrin Izwan bin Ahmad Khalil 2112343
+3. Nurizuan Nazrin bin Komori 2113021
 
 
 ## Rules
@@ -24,9 +24,9 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __Fill answer here__.
-   https://github.com/NazrinIzwan/NatSysProject
-3. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
-   7 files total and 1 folder
+   > https://github.com/NazrinIzwan/NatSysProject
+2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+   > 7 files total and 1 folder
 
 
 ## Exploring github codespaces
@@ -59,11 +59,11 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-   Linux (Ubuntu).
+   > Linux (Ubuntu).
 3. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-   2-core CPU with 4GB RAM and 32GB storage, and 4-core CPU with 8GB RAM and 64GB storage
+   > 2-core CPU with 4GB RAM and 32GB storage, and 4-core CPU with 8GB RAM and 64GB storage
 5. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
-   To ensure that all changes are saved and updated in the remote repository, preventing data loss and maintaining version control.
+   > To ensure that all changes are saved and updated in the remote repository, preventing data loss and maintaining version control.
 
 ## Exploring the Terminal
 
@@ -323,19 +323,19 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6098.3 avail Mem
 Linux codespaces-2478bc 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-191.2 MiB free memory
+> 191.2 MiB free memory
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-5.9Gi
+> 5.9Gi
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-Linux codespaces-2478bc 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+> Linux codespaces-2478bc 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-ls lists files and directories in the current directory, while ls -asl provides detailed information including permissions, number of links, owner, group, size, and modification date.
+> ls lists files and directories in the current directory, while ls -asl provides detailed information including permissions, number of links, owner, group, size, and modification date.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-6213.6 buff/cache
+> 2560 4K pages
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-3030.869
+> 3030.869 MHz
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
-2392 codespa+  20   0   21.1g 341956  43776 S   3.0   4.2   0:27.51 node
+> node
 
 ## Running your own container instance.
 
@@ -396,9 +396,9 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-No, because containers do not save data once stopped unless volumes are used.
+> No, because containers do not save data once stopped unless volumes are used.
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
-Yes, you can run multiple instances of Debian Linux concurrently.
+> Yes, you can run multiple instances of Debian Linux concurrently.
 ## Running your own container with persistent storage
 
 1. In the previous experiment, you might have notice that containers are not persistent. To make storage persistent, you will need to mount them. 
@@ -417,12 +417,13 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
-  codespace codespace 
-  codespace root      
+  > codespace codespace 
+
+  > codespace root      
 
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
-//use sudo and chown
+# use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
@@ -453,11 +454,11 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-User: root, Group: root
+> User: root, Group: root
 2. What port is the apache web server running. ***(1 mark)***
-Port 80
+> Port 80
 3. What port is open for http protocol on the host machine? ***(1 mark)***
-Port 8080
+> Port 8080
 
 ## Create SUB Networks
 
@@ -477,18 +478,20 @@ docker run -itd --net rednet --name c2 busybox sh
 ***Questions:***
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-BusyBox is a software suite providing several Unix utilities in a single executable file. The --name switch assigns a specific name to the container.
+> BusyBox is a software suite providing several Unix utilities in a single executable file. The --name switch assigns a specific name to the container.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
-![alt text](image-1.png)
+>![alt text](image-1.png)
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
-bluenet Gateway: 172.18.0.1
-rednet Gateway: 172.19.0.1
+> bluenet Gateway: 172.18.0.1
+
+> rednet Gateway: 172.19.0.1
 
 4. What is the network address for the running container c1 and c2.
-C1 IPAddress: 172.18.0.2
-C2 IPAddress: 172.19.0.2
+> C1 IPAddress: 172.18.0.2
+
+> C2 IPAddress: 172.19.0.2
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
-Cannot Ping
+> Cannot Ping
 ![alt text](image-2.png)
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
@@ -498,7 +501,7 @@ docker network connect bridgenet c1
 docker network connect bridgenet c2
 docker exec c1 ping c2
 ```
-![alt text](image-3.png)
+> ![alt text](image-3.png)
 ## What to submit
 
 1. Make sure to commit all changes on your source control, and make sure your source control is sync to the repository. 
