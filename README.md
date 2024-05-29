@@ -1,11 +1,12 @@
 # Net&Sys Assignment: Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __Group1__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1.Wan Aiman bin Wan Ibrahim 2113615
+2.Ahmad Nazrin Izwan bin Ahmad Khalil 2112343
+3.Nurizuan Nazrin bin Komori 2113021
+
 
 ## Rules
 1. You are allowed to have **3 group** members.
@@ -23,7 +24,9 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+   https://github.com/NazrinIzwan/NatSysProject
+3. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+   7 files total and 1 folder
 
 
 ## Exploring github codespaces
@@ -56,8 +59,11 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+   Linux (Ubuntu)
+3. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
+   2-core CPU with 4GB RAM and 32GB storage, and 4-core CPU with 8GB RAM and 64GB storage
+5. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+   To ensure that all changes are saved and updated in the remote repository, preventing data loss and maintaining version control.
 
 ## Exploring the Terminal
 
